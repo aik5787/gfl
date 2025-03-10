@@ -3,3 +3,5 @@ node_modules/
 cypress/downloads
 reports
 .env
+runner-results
+multi-reporter-config.json

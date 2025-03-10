@@ -12,10 +12,11 @@
     "smoke:chrome": "npx cypress run --env grepTags=@smoke --browser chrome",
     "postinstall": "patch-package",
     "clean:reports": "rm -rf reports",
+    "clean:": "rm -rf runner-results multi-reporter-config.json",
     "cy:run": "cypress run",
     "cy:parallel": "cypress-parallel -s cy:run -t 2 -d 'cypress/e2e/**/*.cy.js'",
     "merge-reports": "mochawesome-merge reports/.jsons/*.json > reports/merged-report.json",
     "generate-html-report": " marge reports/merged-report.json -o reports",
-    "all": "npm-run-all --continue-on-error clean:reports cy:parallel merge-reports generate-html-report"
+    "all": "npm-run-all --continue-on-error clean:reports cy:parallel merge-reports generate-html-report clean"
   }
 }
