@@ -1,0 +1,16 @@
+{
+    "loginUrl": "https://gflb2c.b2clogin.com/gflb2c.onmicrosoft.com/b2c_1_my_account_sign_up_in_2/oauth2/v2.0/authorize?client_id=0e796cd9-fe82-40db-bffb-ea7b946fa856&scope=openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Fmyaccount.gflenv.com%2Fcallback&client-request-id=22ddc191-c032-4788-b755-1cffcbebe41e&response_mode=query&response_type=code&x-client-SKU=msal.js.node&x-client-VER=2.16.2&x-client-OS=linux&x-client-CPU=x64&client_info=1&code_challenge=LVVvCCpnAy55OD8HA1gr1wSh4Nq3aBejdZebt6T76D0&code_challenge_method=S256&state=eyJjc3JmVG9rZW4iOiI4MjQzNWE1Ni0yOGU2LTRjNDktYTA2MS05OGQ3YzI4NWYwZDgiLCJyZWRpcmVjdFRvIjoiL292ZXJ2aWV3In0%3D",
+    "myAccountUrl": "https://myaccount.gflenv.com",
+    "overviewPath": "/en/overview",
+    "title": "MyAccount",
+    "myProfileText": "My Profile",
+    "invalidEmail": "qwert@gmail.com",
+    "invalidPassword": "12345678",
+    "errorMessages": {
+    "emailRequired": "Please enter your Email Address",
+    "passwordRequired": "Please enter your password",
+    "accountNotFound": "We can't seem to find your account",
+    "incorrectPassword": "Your password is incorrect"
+    }
+  }
+
